@@ -1,0 +1,40 @@
+body {
+  font-family: 'Nunito', Helvetica, sans-serif !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: 100% !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.container {
+  padding-top: 50px;
+}
+.svg-size {
+  background: url(../img/banner-1.svg) bottom;
+  height: 850px;
+  width: 100%;
+  zoom: 100%;
+  background-position-y: 25px;
+  position: absolute;
+}
+.card {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.full-templ {
+  margin-top: 40px;
+}
+.image-responsive {
+  height: 100%;
+  width: 100%;
+}
+.card-title {
+  padding-top: 10px;
+}
+.card-title,
+.card-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.card-footer {
+  padding-top: 25px;
+}

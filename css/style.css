@@ -1,0 +1,49 @@
+/* prefiex css */
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+.textOnColor {
+  color: rgb(255, 255, 255);
+}
+
+.textOnColor:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* body part */
+
+ body {
+   height: 100%;
+  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);    
+  display: flex; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 1rem;
+  list-style-type: none;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.2rem;
+}
