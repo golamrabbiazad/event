@@ -20,6 +20,13 @@ body {
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
+.width-100 {
+  width: 100px;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
 .full-templ {
   margin-top: 40px;
 }

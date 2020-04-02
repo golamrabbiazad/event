@@ -1,5 +1,7 @@
 /* prefiex css */
-*, :before, :after {
+*,
+:before,
+:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -19,10 +21,10 @@ html {
 
 /* body part */
 
- body {
-   height: 100%;
-  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);    
-  display: flex; 
+body {
+  height: 100%;
+  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
   align-items: center;
